@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전화 상담</title>
+
+  <script>
+    window.onload = function() {
+      window.location.href = "tel:02-322-1187";
+    };
+  </script>
+</head>
+
+<body>
+  <h2>전화 상담</h2>
+  <p>아래 버튼을 눌러 전화 상담을 연결해주세요.</p>
+
+  <a href="tel:02-322-1187"
+     style="font-size:20px; padding:15px 30px; display:inline-block;">
+    📞 전화 상담하기
+  </a>
+</body>
+</html>
